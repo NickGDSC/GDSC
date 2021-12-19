@@ -1,3 +1,4 @@
+print("Variables: ")
 print("#1 bool")
 a = True
 print(type(a))

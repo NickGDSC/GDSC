@@ -1,2 +1,2 @@
 # GDSC
-Repository for my first practice task
+Repository for GDSC
