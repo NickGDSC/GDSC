@@ -9,7 +9,7 @@ def fun2(x, y):
     return x-y
 a = []
 b = int(0)
-while b != "1":
+while b != 1:
     x = int(input("Введите любое число: "))
     y = int(input("Введите любое число: "))
     z = input("Выберите что сделать с числами(+,-,*,/): ")
@@ -33,3 +33,7 @@ while b != "1":
         a.append(z)
         print(z)
         a = []
+    c = input("Continue? Y/N: ")
+    if c == "N":
+        print("See you later!")
+        b += 1
